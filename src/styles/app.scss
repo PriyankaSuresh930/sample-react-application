@@ -1,0 +1,94 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+
+// Start : Includes 
+//======================================//
+@import "./includes/variables";
+@import "./includes/common";
+// End : Includes 
+//======================================//
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $primary-color;
+    font-family: "Rubik", sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+.btn-outline-green-blue {
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    background-color: $white-color;
+    padding: 10px;
+    font-weight: 500;
+}
+.btn-green-blue {
+    color: $white-color;
+    background-color: $primary-color;
+    padding: 10px;
+}
+.btn-close {
+    --bs-btn-close-bg: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMzUyIDEyOC40IDMxOS43IDk2IDE2MCAyNTZsMTU5LjcgMTYwIDMyLjMtMzIuNEwyMjQuNyAyNTZ6IiBmaWxsPSIjZmZmZmZmIiBjbGFzcz0iZmlsbC0wMDAwMDAiPjwvcGF0aD48L3N2Zz4=") !important;
+    --bs-btn-close-opacity: 0.5;
+    font-size: 20px !important;
+}
+.input-field {
+    border-radius : 3px;
+    padding: 5px;
+    margin: 10px 0px;
+    border: 1px solid $grey-color;
+    width: 100%;
+}
+.blue-box {
+    border: 2px solid $blue-color;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.blue-box select{
+    width: 80%;
+ }
+ .delete-btn {
+    width: 31px;
+    height: 31px;
+    text-align: center;
+    border: 1px solid $border-green;
+    background-color: $light-green;
+    padding: 0;
+    margin-left: 5px;
+ }
+ .dot {
+    font-size: 10px !important;
+    padding: 10px;
+}
+.content {
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+.saving-segment-footer {
+    background-color:$light-grey;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.save-segment-btn {
+    background-color: $green-color;
+    border: 1px solid $green-color;
+    border-radius: 3px;
+    color: $white-color;
+    padding: 8px 15px;
+}
+.cancel-btn {
+    background-color: $white-color;
+    color: $red-color;
+    border-radius: 3px;
+    border: 1px solid $white-color;
+    padding: 5px 10px;
+}
